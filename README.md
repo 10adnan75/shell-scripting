@@ -2,4 +2,3 @@
 
 **#!/bin/bash**
 
-    Adnan Shaikh
