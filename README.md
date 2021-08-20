@@ -1,8 +1,6 @@
 # shell-scripting
 
-**#!/bin/bash**
+#!/bin/bash
 
----
-
-Adnan M Shaikh
+Adnan
 
