@@ -93,13 +93,13 @@ for NAME in $NAMES
 done
 
 # FOR LOOP TO RENAME FILES
-# FILES=$(ls *.txt)
-# NEW="new"
-# for FILE in $FILES
-#     do
-#         echo "Renaming $FILE to new-$FILE"
-#         mv $FILE $NEW-$FILE
-# done
+FILES=$(ls *.txt)
+NEW="new"
+for FILE in $FILES
+    do
+        echo "Renaming $FILE to new-$FILE"
+        mv $FILE $NEW-$FILE
+done
 
 # WHILE
 LINE=1
@@ -111,11 +111,26 @@ done < "./cr7.txt"
 
 # FUNCTION
 function sayHello() {
+    echo "Hello World!"
+}
+
+sayHello 
+
+# PARAMETERS
+function sayHelloAdnan() {
     echo "Hello $1!"
 }
 
-sayHello "Adnan"
+sayHelloAdnan "Adnan"
 
+function getSum() {
+    SUM=$(($1+$2))
+    echo "$SUM"
+}
+
+getSum 6 9
+
+# LINUX
 mkdir hello
 touch "hello/world.txt"
 echo "Hello World" >> "hello/world.txt"
