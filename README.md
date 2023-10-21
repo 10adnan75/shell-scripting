@@ -1,4 +1,4 @@
-# shell-scripting
+# Shell Scripting
 
 #!/bin/bash
 
