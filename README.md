@@ -2,5 +2,5 @@
 
 #!/bin/bash
 
-@ author: Adnan
+@ author: 10adnan75
 
