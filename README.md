@@ -2,4 +2,4 @@
 
 #!/bin/bash
 
-@ author: 10adnan75
+@author: 10adnan75
